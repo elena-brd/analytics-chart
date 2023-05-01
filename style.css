@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #02061a;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+}
+
+#card.card-container {
+    background: #03071e;
+    border: 2px solid #003554;
+    display: flex;
+    flex-direction: column;
+    margin: 10rem auto;
+    width: 450px;
+    height: 100%;
+    border-radius: 10px;
+    padding: 2.5rem 2rem;
+}
+
+#card .heading {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+}
+
+#card .progress-bar {
+    width: 100%;
+    height: 20px;
+    background: #003554;
+}
+
+#card .bar-active-yellow {
+    width: 175px;
+    height: 20px;
+    background: #ffba08;
+}
+
+#card .bar-active-orange {
+    width: 95px;
+    height: 20px;
+    background: #e85d04;
+}
+
+#card .expenses {
+    padding: 1rem 0;
+}
+
+#card .total {
+    padding-bottom: 1rem;
+}
+
+#card .column {
+    margin: 0.7rem 0;
+}
+
+#card .bar-active-red {
+    width: 25px;
+    height: 20px;
+    background: #d00000;
+}
+
+#card .personal i {
+    color: #ffba08;
+}
+
+#card .groceries i {
+    color: #e85d04;
+}
+
+#card .courses i {
+    color: #d00000;
+}
+
+#card .column {
+    display: flex;
+    justify-content: space-between;
+}
